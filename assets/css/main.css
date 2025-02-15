@@ -85,7 +85,7 @@ html {
 }
 
 body {
-    background: #1cebe4 url("images/bg01.png");
+    background: #1be3dc url("images/bg01.png");
 }
 
     body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2221,7 +2221,7 @@ ul {
     }
 
         ul.menu li {
-            border-left: solid 1px #e0e0e0;
+            border-left: solid 1px #000000;
             display: inline-block;
             padding: 0 0 0 1em;
             margin: 0 0 0 1em;
@@ -2524,8 +2524,6 @@ button,
     text-align: left;
     padding: 10em 2 0 0;
     background-color: #00fdb3;
-    background-image: url("images/bg02.png"), url("images/bg02.png"), url("images/bg01.png");
-    background-position: center, top left, top left;
     background-size: 200% 0em, 200% 0em, auto;
     background-repeat: repeat, no-repeat, repeat;
 }
@@ -2549,11 +2547,7 @@ button,
     position: static;
     cursor: default;
     text-align: center;
-    background-color: #00fdb3;
-    background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgb(255 255 255 / 30%)), url("images/bg01.png");
-    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgb(255 255 255 / 30%)), url("images/bg01.png");
-    background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgb(255 255 255 / 30%)), url("images/bg01.png");
-    background-image: linear-gradient(top, rgba(0,0,0,0), rgb(255 255 255 / 30%)), url("images/bg01.png");
+    background-color: #00ffb4;
     padding: 0;
 }
 
@@ -2819,17 +2813,18 @@ button,
         #header h1 a {
             position: relative;
             left: 1em;
-            font-size: 6em;
+            font-size: 7em;
             letter-spacing: -0.025em;
             border: 0;
             font-family: "Palantino-Linotype";
-            font-style: normal;
+            font-style: italic;
+            padding-top: 8em;
         }
 }
 
 /* Normal */
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1980px) {
 
     /* Basic */
 
@@ -2862,8 +2857,12 @@ button,
     }
 
         #header h1 {
-            padding: 0 0 1.75em 0;
+            padding: 0 0 2.75em 0;
+            margin: 0;
         }
+
+
+
 
     /* Banner */
 
