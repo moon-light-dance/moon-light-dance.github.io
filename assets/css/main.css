@@ -2389,10 +2389,6 @@ table {
 
 /* Button */
 
-input[type="submit"],
-input[type="reset"],
-input[type="button"],
-button,
 .button {
     -moz-appearance: none;
     -webkit-appearance: none;
@@ -2402,11 +2398,11 @@ button,
     -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
     -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-    background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-    background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-    background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-    background-color: #37c0fb;
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgb(26 216 210)), url("images/bg01.png");
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgb(27 227 220)), url("images/bg01.png");
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgb(26 222 215)), url("images/bg01.png");
+    background-image: linear-gradient(top, rgba(0,0,0,0), rgb(26 220 213)), url("images/bg01.png");
+    background-color: #00ffb4;
     border-radius: 5px;
     border: 0;
     color: #fff;
@@ -2426,7 +2422,11 @@ button,
     input[type="button"]:hover,
     button:hover,
     .button:hover {
-        background-color: #50c8fc;
+        background-color: #e01b7a;
+        background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgb(216 26 26 / 0%)), url("images/bg01.png");
+        background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgb(227 27 27 / 0%)), url("images/bg01.png");
+        background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgb(222 26 26 / 0%)), url("images/bg01.png");
+        background-image: linear-gradient(top, rgba(0,0,0,0), rgb(220 26 26 / 0%)), url("images/bg01.png");
         color: #fff !important;
     }
 
